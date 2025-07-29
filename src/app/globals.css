@@ -77,13 +77,13 @@
   mix-blend-mode: screen;
 }
 
-.blob-1 { background-color: #0025CE; width: 65vw; height: 65vw; top: 5%; left: 5%; animation: move 20s infinite alternate; }
-.blob-2 { background-color: #00EAFF; width: 60vw; height: 60vw; top: 10%; left: 60%; animation: move 22s infinite alternate-reverse; }
-.blob-3 { background-color: #303E57; width: 50vw; height: 50vw; top: 50%; left: 2%;  animation: move 25s infinite alternate; }
-.blob-4 { background-color: #4D3589; width: 70vw; height: 70vw; top: 60%; left: 50%; animation: move 28s infinite alternate-reverse; }
-.blob-5 { background-color: #BADAFF; width: 45vw; height: 45vw; top: 30%; left: 30%; animation: move 30s infinite alternate; }
-.blob-6 { background-color: #C4C4C4; width: 55vw; height: 55vw; top: 70%; left: 10%; animation: move 18s infinite alternate-reverse; }
-.blob-7 { background-color: #FFFFFF; width: 48vw; height: 48vw; top: -10%; left: 35%; animation: move 26s infinite alternate; }
+.blob-1 { background-color: #0025CE; width: 65vw; height: 65vh; top: 5%; left: 5%; animation: move 20s infinite alternate; }
+.blob-2 { background-color: #00EAFF; width: 60vw; height: 60vh; top: 10%; left: 60%; animation: move 22s infinite alternate-reverse; }
+.blob-3 { background-color: #303E57; width: 50vw; height: 50vh; top: 50%; left: 2%;  animation: move 25s infinite alternate; }
+.blob-4 { background-color: #4D3589; width: 70vw; height: 70vh; top: 60%; left: 50%; animation: move 28s infinite alternate-reverse; }
+.blob-5 { background-color: #BADAFF; width: 45vw; height: 45vh; top: 30%; left: 30%; animation: move 30s infinite alternate; }
+.blob-6 { background-color: #C4C4C4; width: 55vw; height: 55vh; top: 70%; left: 10%; animation: move 18s infinite alternate-reverse; }
+.blob-7 { background-color: #FFFFFF; width: 48vw; height: 48vh; top: -10%; left: 35%; animation: move 26s infinite alternate; }
 
 
 @keyframes move {
