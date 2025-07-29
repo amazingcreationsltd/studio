@@ -9,7 +9,7 @@ const projects = [
   {
     title: "AI-Powered Image Recognition",
     description: "An experimental project exploring convolutional neural networks to classify images with high accuracy. Built with Python, TensorFlow, and Keras.",
-    imageUrl: "https://placehold.co/600x400.png",
+    imageUrl: "https://placehold.co/400x300.png",
     tags: ["ML", "Python", "AI"],
     githubUrl: "#",
     dataAiHint: "abstract neural network"
@@ -17,7 +17,7 @@ const projects = [
   {
     title: "E-commerce UI/UX Design",
     description: "A complete UI/UX design for a modern e-commerce platform, focusing on a clean user flow and minimalist aesthetic. Designed in Figma.",
-    imageUrl: "https://placehold.co/600x400.png",
+    imageUrl: "https://placehold.co/400x300.png",
     tags: ["UI/UX", "Figma"],
     githubUrl: "#",
     dataAiHint: "ecommerce interface design"
@@ -25,7 +25,7 @@ const projects = [
   {
     title: "Portfolio Website",
     description: "A responsive personal portfolio built with Next.js and Tailwind CSS, featuring a sleek design and smooth animations.",
-    imageUrl: "https://placehold.co/600x400.png",
+    imageUrl: "https://placehold.co/400x300.png",
     tags: ["React", "Next.js", "Web Dev"],
     githubUrl: "#",
     dataAiHint: "website design code"
@@ -33,7 +33,7 @@ const projects = [
   {
     title: "Urban Photography Series",
     description: "A collection of photographs capturing the essence of city life, focusing on architecture, light, and shadow. Edited in Lightroom.",
-    imageUrl: "https://placehold.co/600x400.png",
+    imageUrl: "https://placehold.co/400x300.png",
     tags: ["Photography", "Art"],
     githubUrl: "#",
     dataAiHint: "urban photography"
@@ -52,7 +52,7 @@ export default function Projects() {
           {projects.map((project) => (
             <Card key={project.title} className="overflow-hidden bg-card/50 backdrop-blur-lg border-border/20 transition-transform duration-300 hover:-translate-y-2 hover:shadow-2xl hover:shadow-primary/10">
               <CardHeader className="p-0">
-                <Image src={project.imageUrl} alt={project.title} width={600} height={400} className="w-full h-60 object-cover" data-ai-hint={project.dataAiHint} />
+                <Image src={project.imageUrl} alt={project.title} width={400} height={300} className="w-full aspect-[4/3] object-cover" data-ai-hint={project.dataAiHint} />
               </CardHeader>
               <CardContent className="p-6">
                 <CardTitle className="font-headline text-xl">{project.title}</CardTitle>
