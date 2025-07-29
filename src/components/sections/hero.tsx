@@ -8,7 +8,17 @@ import { Avatar, AvatarFallback, AvatarImage } from "@/components/ui/avatar";
 export default function Hero() {
   return (
     <section id="hero" className="relative h-screen w-full">
-      <div className="absolute inset-0 -z-10 bg-gradient-to-tr from-background via-blue-950 to-background animated-gradient"></div>
+       <div className="absolute inset-0 -z-10 bg-black">
+        <div className="blob-container">
+          <div className="blob blob-1"></div>
+          <div className="blob blob-2"></div>
+          <div className="blob blob-3"></div>
+          <div className="blob blob-4"></div>
+          <div className="blob blob-5"></div>
+          <div className="blob blob-6"></div>
+          <div className="blob blob-7"></div>
+        </div>
+      </div>
       <div className="container mx-auto flex h-full max-w-7xl flex-col items-center justify-center px-4 text-center sm:px-6 lg:px-8">
         <Avatar className="w-32 h-32 mb-6 border-4 border-primary/50">
           <AvatarImage src="https://placehold.co/200x200.png" alt="Debanga Dutta" data-ai-hint="man portrait" />

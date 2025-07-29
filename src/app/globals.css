@@ -58,16 +58,36 @@
   }
 }
 
-.animated-gradient {
-  background-size: 300%;
-  animation: gradient-animation 10s infinite alternate;
+.blob-container {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  filter: blur(40px);
 }
 
-@keyframes gradient-animation {
-  0% {
-    background-position: 0%;
-  }
-  100% {
-    background-position: 100%;
-  }
+.blob {
+  position: absolute;
+  border-radius: 50%;
+  opacity: 0.7;
+  will-change: transform, opacity;
+}
+
+.blob-1 { background-color: #0025ce; width: 30vw; height: 30vw; top: 10%; left: 10%; animation: move 20s infinite alternate; }
+.blob-2 { background-color: #00eaff; width: 25vw; height: 25vw; top: 20%; left: 70%; animation: move 22s infinite alternate-reverse; }
+.blob-3 { background-color: #303e57; width: 20vw; height: 20vw; top: 60%; left: 5%;  animation: move 25s infinite alternate; }
+.blob-4 { background-color: #4d3589; width: 35vw; height: 35vw; top: 70%; left: 60%; animation: move 28s infinite alternate-reverse; }
+.blob-5 { background-color: #badaff; width: 15vw; height: 15vw; top: 40%; left: 40%; animation: move 30s infinite alternate; }
+.blob-6 { background-color: #c4c4c4; width: 22vw; height: 22vw; top: 80%; left: 20%; animation: move 18s infinite alternate-reverse; }
+.blob-7 { background-color: #ffffff; width: 18vw; height: 18vw; top: 5%;  left: 45%; animation: move 26s infinite alternate; }
+
+
+@keyframes move {
+  0% { transform: scale(1) translate(0, 0) rotate(0deg); opacity: 0.5; border-radius: 60% 40% 30% 70% / 60% 30% 70% 40% }
+  25% { transform: scale(1.2) translate(20px, 30px) rotate(90deg); opacity: 0.7; }
+  50% { transform: scale(0.8) translate(-20px, -30px) rotate(180deg); opacity: 0.6; border-radius: 40% 60% 70% 30% / 40% 70% 30% 60% }
+  75% { transform: scale(1.1) translate(-30px, 20px) rotate(270deg); opacity: 0.8; }
+  100% { transform: scale(1) translate(0, 0) rotate(360deg); opacity: 0.5; border-radius: 60% 40% 30% 70% / 60% 30% 70% 40% }
 }
