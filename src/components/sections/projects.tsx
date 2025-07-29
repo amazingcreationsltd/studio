@@ -48,7 +48,7 @@ export default function Projects() {
           <h2 className="font-headline text-3xl font-bold tracking-tight text-foreground sm:text-4xl">My Projects</h2>
           <p className="mt-4 text-lg text-muted-foreground">A selection of my work across different fields.</p>
         </div>
-        <div className="mt-16 grid grid-cols-1 gap-8 md:grid-cols-2 lg:grid-cols-2">
+        <div className="mt-16 grid grid-cols-1 gap-8 md:grid-cols-2 lg:grid-cols-3">
           {projects.map((project) => (
             <Card key={project.title} className="overflow-hidden bg-card/50 backdrop-blur-lg border-border/20 transition-transform duration-300 hover:-translate-y-2 hover:shadow-2xl hover:shadow-primary/10">
               <CardHeader className="p-0">
