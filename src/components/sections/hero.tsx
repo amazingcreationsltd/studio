@@ -18,6 +18,7 @@ export default function Hero() {
           <div className="blob blob-6"></div>
           <div className="blob blob-7"></div>
         </div>
+        <div className="noise-overlay"></div>
       </div>
       <div className="container mx-auto flex h-full max-w-7xl flex-col items-center justify-center px-4 text-center sm:px-6 lg:px-8">
         <Avatar className="w-32 h-32 mb-6 border-4 border-primary/50">
