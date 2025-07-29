@@ -1,3 +1,4 @@
+import * as React from "react";
 import { Button } from "@/components/ui/button";
 import { Github, Linkedin, Instagram, Mail, Download } from "lucide-react";
 import Link from "next/link";
