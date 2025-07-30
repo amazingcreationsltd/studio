@@ -22,7 +22,7 @@ export default function Hero() {
       </div>
       <div className="container mx-auto flex h-full max-w-7xl flex-col items-center justify-center px-4 text-center sm:px-6 lg:px-8">
         <Avatar className="w-32 h-32 mb-6 border-4 border-primary/50">
-          <AvatarImage src="https://storage.googleapis.com/gweb-aip-static/app-pro-builder-images/0b18f3a3-4b68-45e3-8515-5c1a172777b7.png" alt="Debanga Dutta" />
+          <AvatarImage src="https://storage.googleapis.com/gweb-aip-static/app-pro-builder-images/e979a295-a228-444e-a197-285b248a8d11.png" alt="Debanga Dutta" />
           <AvatarFallback>DD</AvatarFallback>
         </Avatar>
         <h1 className="font-headline text-4xl font-bold tracking-tight text-foreground sm:text-5xl md:text-6xl">
